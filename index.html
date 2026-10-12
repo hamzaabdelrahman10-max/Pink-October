@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breast Cancer Awareness — Quiz 🎀</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page-wrapper">
+        <!-- HOME SECTION -->
+        <section class="card home-card" id="homeSection">
+            <div class="hero-content">
+                <h1 class="main-title">🎀 Breast Cancer Awareness Quiz 🎀</h1>
+                <p class="tagline">Pick a Number • Answer • Learn</p>
+                
+                <div class="team-box">
+                    <strong>Project Team</strong>
+                    <p>Yamen.M • Ward.M • Mohammed.E • Hamza.A</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">Choose Your Question</h2>
+            <p class="section-subtitle">Select any number from 1 to 10</p>
+            <div class="number-grid" id="numberGrid"></div>
+        </section>
+
+        <!-- QUESTION SECTION -->
+        <section class="card quiz-card hidden" id="quizSection">
+            <button class="back-home-btn" id="backHomeBtn">← Back to Home</button>
+            
+            <p class="question-label" id="questionLabel">Question #1</p>
+            <h2 class="question-text" id="questionText"></h2>
+            <div class="options-grid" id="optionsGrid"></div>
+            
+            <div class="feedback-panel hidden" id="feedbackPanel">
+                <div class="feedback-icon" id="feedbackIcon"></div>
+                <p class="feedback-message" id="feedbackMsg"></p>
+                <div class="explanation-box">
+                    <strong>💡 Learn More:</strong>
+                    <p id="explanationText"></p>
+                </div>
+            </div>
+
+            <button class="btn home-btn hidden" id="homeBtn">🏠 Back to Home</button>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>Knowledge is power. Early detection saves lives. 💖</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
